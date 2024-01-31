@@ -1,6 +1,4 @@
 import requests,datetime
-
-import requests,datetime
 response=requests.get("https://www.36jxs.com/api/Commonweal/almanac",{ "sun": datetime.date.today()})
 data=response.json()['data']
 def get(s):
